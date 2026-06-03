@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import scipy.optimize
 
-from HM2_Serie07_Aufg2_Daten import x, y
+from Daten_gauss_newton import x, y
 
 
 def model_function(parameter_vector, x_values):
